@@ -1,0 +1,28 @@
+.projects_container {
+    padding: 2em;
+}
+
+.title_container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.projects_container p {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.projects_container .emoji {
+    font-size: 2em;
+    margin-left: 1em;
+    animation: rotate 3s infinite linear;
+    color: #ffbb33;
+}
+
+ @keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
